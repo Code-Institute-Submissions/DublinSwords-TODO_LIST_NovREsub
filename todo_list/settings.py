@@ -124,4 +124,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CSRF_TRUSTED_ORIGINS=['https://8000-dublinswords-todolist-c95tkhx6aqy.ws-eu47.gitpod.io']
+CSRF_TRUSTED_ORIGINS=['https://8000-dublinswords-todolist-c95tkhx6aqy.ws-eu51.gitpod.io']
