@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 #     }
 # }
 
-DATABASE = {
+DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
