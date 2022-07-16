@@ -32,3 +32,84 @@
 
 ### Structure
 #### The website consists of six pages: Registration, Main page, Add Task, Search task, View, Delete and Log In/Log Out pages. Log in and Registration can be viewed by all users. Task page is limited to logged in users.
+
+### Existing Features
+
+#### Login page - existing user can login. 
+
+![](images/picture2.png)
+
+#### Registration page - a new user can create an account adding his/her name ans password. 
+
+![](images/picture3.png)
+
+#### Main page - will show user's name and user can create, edit, view, delete, search and see how many incompleted tasks remain. The tasks which are completed will be marked with crossed out and green dot from the left handside. 
+
+![](images/picture4.png)
+
+#### Search page - user can search for task typing in a first letter. 
+
+![](images/picture5.png)
+
+#### Create a task page - user can create a task with "+" button. Title of task, description of task, complete button when task is complete, and submit button.  
+
+![](images/picture6.png)
+
+#### View/Edit - when task is created we can add some description in description box. 
+
+![](images/picture7.png)
+
+#### Complete - when task is complete we can mark as complete. 
+
+![](images/picture8.png)
+
+#### Delete - when task is completed user can delete his task with "x" button from the right hand side. Before that it will appear a message - "Are you sure you want to delete this task?"
+
+![](images/picture9.png)
+
+#### Main page - when user deleted his task, he will do not have it on the main page. 
+
+![](images/picture10.png)
+
+## Future Features
+  * A useful future feature would be to filter by the user's favourites.
+  * User sign-in with Google/Facebooks
+  * Images can be uploaded to the create task form from the user's own computer or via a url. This could be further restricted by size and type to ensure consistency.
+
+# Design
+### The design style of the website is minimalist, fresh and clean looking.
+## Colours
+  * The colours are chosen to convey nature, fresh clean and nutritious: orange, green, black and white.
+
+  * Font colours are orange white, adjusted for contrast. 
+
+## Typography
+  * The fonts selected were: Nunito for the text and Raleway for the headings. These were selected for their simple and elegant style.
+
+# Technologies Used
+## Languages
+
+  * [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to build the front-end website
+  * [CSS](https://en.wikipedia.org/wiki/CSS) was used to style the HTML and add responsiveness
+  * [JavaScript](https://www.javascript.com/) (no custom JS) was used with Bootstrap to provide interaction on the front-end
+  * [Bootstrap 5.1.3](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to style the website, add responsiveness and interactivity
+  * [Python](https://www.python.org/) was used to code the back end of the project
+  * [PyPI](https://pypi.org/) to install the python packages
+
+## Frameworks
+  * [Django 3.2.8](https://docs.djangoproject.com/en/3.2/)
+  * Django supporting libraries:
+    * [gunicorn](https://gunicorn.org/) as the server for Heroku
+    * [psycopg2](https://pypi.org/project/psycopg2/) as an adaptor for Python and PostgreSQL databases
+    * [dj-database](https://pypi.org/project/dj-database-url/) to parse the database URL from the environment variables in Heroku
+
+## Database
+
+  * Heroku Postgres for the production database
+  * SQLite for the local environment for automated testing
+
+
+
+
+
+
