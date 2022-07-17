@@ -219,17 +219,25 @@ if os.path.isfile("env.py"):
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku.
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku. The live deployment of the project can be seen [here](https://mytodolist-applic.herokuapp.com/)
 
-  #### Local Deployment: Forking and Cloning
-  ##### Forking the Repository
+### Local Deployment: 
+   * To fork the project navigate to the repository [here](https://github.com/DublinSwords/TODO_LIST)
+   * Above the list of files click the dropdown code menu.
+   * Select the https option and copy the link.
+   * Open the terminal.
+   * Change the current working directory to the desired destination location.
+   * Click the 'Fork' button at the top right of the page. A forked copy of the repository will appear in your Repositories page.
+# Credits
 
-    * To fork the project navigate to the repository [here](https://github.com/DublinSwords/TODO_LIST)
-    * Above the list of files click the dropdown code menu.
-    * Select the https option and copy the link.
-    * Open the terminal.
-    * Change the current working directory to the desired destination location.
-    * Click the 'Fork' button at the top right of the page. A forked copy of the repository will appear in your Repositories page.
-  ### Credits
-    * [Dennis Ivy 'Django To Do List App With User Registration & Login'](https://www.youtube.com/watch?v=llbtoQTt4qw&t=68s) was useful for full CRUD functionality application.
+  * [Dennis Ivy 'Django To Do List App With User Registration & Login'](https://www.youtube.com/watch?v=llbtoQTt4qw&t=68s) was useful for full CRUD functionality application.
+  * The following tutorials were useful for automated testing:
+   * [Django Testing](https://www.youtube.com/watch?v=GBgRMdjAx_c)
+   * [Automated Tests - Day 6 - Django Bootcamp](https://www.youtube.com/watch?v=5E_xLmQXOZg) 
+   * This series: [Django Testing Tutorial - What Is Testing? #1](https://www.youtube.com/watch?v=qwypH3YvMKc)
+
+# Acknowledgements
+  ### There would have been no submission without the following people:
+   * Our Course Facilitator Kasia Bogucka: for always being there advising, encouraging and supporting
+   * My mentor Adegbenga Adeye: for his endless knowledge, patience and advice
 
 
 
