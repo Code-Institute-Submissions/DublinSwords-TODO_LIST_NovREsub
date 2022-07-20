@@ -196,15 +196,15 @@ if os.path.isfile("env.py"):
       *  Place under the BASE_DIR: TEMPLATES_DIR = os.path.join(BASE_DIR,
 'templates')
     * Change the templates directory to TEMPLATES_DIR. Place within the TEMPLATES array: 'DIRS': [TEMPLATES_DIR]
-    * Add Heroku Hostname to ALLOWED_HOSTS: ALLOWED_HOSTS = ['favoureats.herokuapp.com', 'localhost']
+    * Add Heroku Hostname to ALLOWED_HOSTS: ALLOWED_HOSTS = ['https://mytodolist-applic.herokuapp.com/login/', 'localhost']
 8. Create media, static and templates folders in top level directory
 
 9. Create Procfile in top level directory:
-    * In Procfile add: web: gunicorn favoureats .wsgi
+    * In Procfile add: web: gunicorn todo_list.wsgi
 
 10. In terminal add, commit, and push:
     * git add <filename>
-    * git commit -m “Deployment Commit”
+    * git commit -m 
     * git push
 
 11. Heroku Deployment:
@@ -228,11 +228,12 @@ if os.path.isfile("env.py"):
    * Click the 'Fork' button at the top right of the page. A forked copy of the repository will appear in your Repositories page.
 # Credits
 
-  * [Dennis Ivy 'Django To Do List App With User Registration & Login'](https://www.youtube.com/watch?v=llbtoQTt4qw&t=68s) was useful for full CRUD functionality application.
+  * [Dennis Ivy 'Django To Do List App With User Registration & Login'](https://www.youtube.com/watch?v=llbtoQTt4qw&t=68s) used his code for above application
   * The following tutorials were useful for automated testing:
    * [Django Testing](https://www.youtube.com/watch?v=GBgRMdjAx_c)
    * [Automated Tests - Day 6 - Django Bootcamp](https://www.youtube.com/watch?v=5E_xLmQXOZg) 
    * This series: [Django Testing Tutorial - What Is Testing? #1](https://www.youtube.com/watch?v=qwypH3YvMKc)
+   * [Readme File](https://github.com/siobhanlgorman/favoureats)- took as example of Readme File and copied. 
 
 # Acknowledgements
   ### There would have been no submission without the following people:
