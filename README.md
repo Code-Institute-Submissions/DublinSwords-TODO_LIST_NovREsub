@@ -15,7 +15,7 @@
 
 
 ### Project Goal
-#### The goal of the project is to create a Task Manager todo list application website. Inspiration for the site came from the developer's task manager group who requested a place to store the tasks for their regular meetings. The developer's family also wanted a means to store, edit and delete their own tasks. The target user is someone:
+#### The goal of the project is to create a Task Manager todo list application website. 
 * who wants to store, edit and delete their own tasks in one place.
 
 ### User Stories
@@ -74,7 +74,6 @@
 ## Future Features
   * A useful future feature would be to filter by the user's favourites.
   * User sign-in with Google/Facebooks
-  * Images can be uploaded to the create task form from the user's own computer or via a url. This could be further restricted by size and type to ensure consistency.
 
 # Design
 ### The design style of the website is minimalist, fresh and clean looking.
@@ -176,46 +175,22 @@ if os.path.isfile("env.py"):
    * In the terminal type:
       * python3 manage.py makemigrations`
       * python3 manage.py migrate`
-7. Set up Cloudinary for static and media files storage
-   * Create a Cloudinary account and from the 'Dashboard' in Cloudinary copy your url into the env.py file by typing: os.environ["CLOUDINARY_URL"] = "cloudinary://<insert-your-url>"
-   * In Heroku add cloudinary url to 'config vars'
-   * In Heroku config vars add DISABLE_COLLECTSTATIC with value of '1' (note: this must be removed for final deployment)
-   * Add Cloudinary libraries to installed apps section of settings.py in this order:
-      * 'cloudinary_storage'
-      * 'django.contrib.staticfiles''
-      * 'cloudinary'
-   * Connect Cloudinary to the Django app in settings.py:
-      * STATIC_URL = '/static'
-      * STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
-      * STATICFILES_DIRS = [os.path.join(BASE_DIR, 'STATIC')]
-      * STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-      * MEDIA_URL = '/media/'
-      * DEFAULT_FILE_STORAGE =
-      * 'cloudinary_storage.storage.MediaCloudinaryStorage'
-      * Link file to the templates directory in Heroku 
-      *  Place under the BASE_DIR: TEMPLATES_DIR = os.path.join(BASE_DIR,
-'templates')
-    * Change the templates directory to TEMPLATES_DIR. Place within the TEMPLATES array: 'DIRS': [TEMPLATES_DIR]
-    * Add Heroku Hostname to ALLOWED_HOSTS: ALLOWED_HOSTS = ['https://mytodolist-applic.herokuapp.com/login/', 'localhost']
-8. Create media, static and templates folders in top level directory
-
-9. Create Procfile in top level directory:
+7. Create Procfile in top level directory:
     * In Procfile add: web: gunicorn todo_list.wsgi
 
-10. In terminal add, commit, and push:
+8. In terminal add, commit, and push:
     * git add <filename>
     * git commit -m 
     * git push
 
-11. Heroku Deployment:
+9. Heroku Deployment:
     * Click Deploy tab in Heroku
     * In the 'Deployment method' section select 'Github' and click the 'connect to Github' button to confirm.
     * In the 'search' box enter the Github repository name for the project: (https://github.com/DublinSwords/TODO_LIST)
     * Click search and then click connect to link the heroku app with the Github repository. The box will confirm that heroku is connected to the repository.
 
-12. Final Deployment
+10. Final Deployment
     * When development is complete change the debug setting to: DEBUG = False in settings.py
-    * In this project the summernote editor was used so for this to work in Heroku add: X_FRAME_OPTIONS = 'SAMEORIGIN' to settings.py.
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku.
     * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku. The live deployment of the project can be seen [here](https://mytodolist-applic.herokuapp.com/)
 
@@ -229,10 +204,6 @@ if os.path.isfile("env.py"):
 # Credits
 
   * [Dennis Ivy 'Django To Do List App With User Registration & Login'](https://www.youtube.com/watch?v=llbtoQTt4qw&t=68s) used his code for above application
-  * The following tutorials were useful for automated testing:
-   * [Django Testing](https://www.youtube.com/watch?v=GBgRMdjAx_c)
-   * [Automated Tests - Day 6 - Django Bootcamp](https://www.youtube.com/watch?v=5E_xLmQXOZg) 
-   * This series: [Django Testing Tutorial - What Is Testing? #1](https://www.youtube.com/watch?v=qwypH3YvMKc)
    * [Readme File](https://github.com/siobhanlgorman/favoureats)- took as example of Readme File and copied. 
 
 # Acknowledgements
