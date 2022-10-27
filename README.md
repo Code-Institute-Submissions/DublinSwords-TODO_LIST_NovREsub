@@ -78,7 +78,7 @@
 # Design
 ### The design style of the website is minimalist, fresh and clean looking.
 ## Colours
-  * The colours are chosen to convey nature, fresh clean and nutritious: orange, green, black and white.
+  * The colours are chosen to convey nature, fresh clean and nutritious: green, black and white.
 
   * Font colours are orange white, adjusted for contrast. 
 
