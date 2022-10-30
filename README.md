@@ -30,6 +30,32 @@
 ### Scope
 #### The scope of the project was large at the planning stage. While the ultimate goal was to allow logged in users to have full CRUD functionality for all their own content, time constraints meant this was limited to CRUD functionality for users only for their own tasks . More functionality for logged in users will be added in the future. 
 
+### Wireframes
+
+#### Login page
+
+![](images/picture11.png)
+
+#### Registration page
+
+![](images/picture12.png)
+
+#### User page
+
+![](images/picture13.png)
+
+#### Add todo page
+
+![](images/picture14.png)
+
+#### Search page
+
+![](images/picture15.png)
+
+#### Delete page
+
+![](images/picture16.png)
+
 ### Structure
 #### The website consists of six pages: Registration, Main page, Add Task, Search task, View, Delete and Log In/Log Out pages. Log in and Registration can be viewed by all users. Task page is limited to logged in users.
 
@@ -80,7 +106,7 @@
 ## Colours
   * The colours are chosen to convey nature, fresh clean and nutritious: green, black and white.
 
-  * Font colours are orange white, adjusted for contrast. 
+  * Font colours are green white, adjusted for contrast. 
 
 ## Typography
   * The fonts selected were: Nunito for the text and Raleway for the headings. These were selected for their simple and elegant style.
@@ -119,6 +145,7 @@
   * [W3C Markup Validation Service](https://validator.w3.org/) 
   * [W3C CSS Validation Service(Jigsaw)](https://jigsaw.w3.org/css-validator/)
   * [PEP8](https://peps.python.org/pep-0008/) to validate the Python code
+  * [Wireframe](https://wireframe.cc/)
 
 # Deployment
 
