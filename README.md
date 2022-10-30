@@ -97,6 +97,12 @@
 
 ![](images/picture10.png)
 
+### Database model
+
+![](images/picture17.png)
+
+#### Made in Lucidchart.
+
 ## Future Features
   * A useful future feature would be to filter by the user's favourites.
   * User sign-in with Google/Facebooks
@@ -146,6 +152,7 @@
   * [W3C CSS Validation Service(Jigsaw)](https://jigsaw.w3.org/css-validator/)
   * [PEP8](https://peps.python.org/pep-0008/) to validate the Python code
   * [Wireframe](https://wireframe.cc/)
+  * [Database model](www.lucidchart.com)
 
 # Deployment
 
